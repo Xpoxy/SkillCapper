@@ -59,7 +59,7 @@ namespace SkillCapper
         {
             await Task.Run(async () =>
             {
-                Logger.Log($"Skillgroup function for the player {uplayer.DisplayName} is running.");
+                //Logger.Log($"Skillgroup function for the player {uplayer.DisplayName} is running.");
 
                 IRocketPlayer rplayer = (IRocketPlayer)uplayer;
                 if (rplayer.IsAdmin)
